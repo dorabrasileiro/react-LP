@@ -30,7 +30,7 @@ function App() {
         </span>
     </nav>
     <main>
-      <section id="s1">
+      <section id="s1" className={s.s1}>
             <h1>Mercedes</h1>
             <h2>O melhor carro da temporada</h2>
       </section>

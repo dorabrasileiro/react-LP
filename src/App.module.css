@@ -5,19 +5,6 @@
     scroll-behavior: smooth;
 }
 
-:root{
---text: #ffffff;
---dark: #0b0b0b;
---bg: #1d2429;
---azul: #00b4d8;
---ciano: #00d8cd;
---verde: #00363d;
---azul2: #5fa4ad;
---azul3: #00454e;
---font: "Libre Baskerville", serif;
-}
-    
-
 
 .navItems{
     background-color: #5fa4ad;
@@ -53,8 +40,8 @@
 
 
 
-#s1{
-    background-image: url('..//assets/images/1323369.jpeg');
+.s1{
+    background-image: url('../public/fundo.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,7 +61,7 @@
     height: 800px;
  }
 
-#s2{
+.s2{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +88,7 @@ transition: opacity 0.6s ease, transfom 0.6s ease;
     transform: translateY(0);
 }
 
-#s4{
+.s4{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -172,7 +159,7 @@ transition: opacity 0.6s ease, transfom 0.6s ease;
         display: none;
     }
     #s1{
-    background-image: url("../assets/images/7052629.jpg")
+    background-image: url("../public/celular.jpg")
 }
 .navItems a{
     display: none;
