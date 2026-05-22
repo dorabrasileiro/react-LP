@@ -41,15 +41,15 @@
 
 
 .s1{
-    background-image: url('../public/fundo.jpeg');
+    background-image: url('/fundo.jpeg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     box-shadow: #5fa4ad 0px 5px 15px;
 }
 
@@ -68,6 +68,7 @@
     flex-wrap: wrap;
     gap: 50px;
     min-height: 50vw;
+    padding: 100px;
 }
 
 .card{
@@ -77,8 +78,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-opacity: 0;
-transform: translateY(200px);
+opacity: 1;
+
 transition: opacity 0.6s ease, transfom 0.6s ease;
 }
 
@@ -159,7 +160,7 @@ transition: opacity 0.6s ease, transfom 0.6s ease;
         display: none;
     }
     #s1{
-    background-image: url("../public/celular.jpg")
+    background-image: url("/celular.jpg")
 }
 .navItems a{
     display: none;

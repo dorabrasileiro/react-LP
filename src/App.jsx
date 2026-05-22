@@ -11,7 +11,7 @@ function App() {
 
   return (
 <>
-    <nav>
+    {/* <nav>
           <span className={s.navItems} onclick="navTo('s1')">
             <i class="fa-regular fa-house"></i>
             <a className="navWorks" href="#s1">Empresa</a>
@@ -28,13 +28,29 @@ function App() {
             <i class="fa-solid fa-phone"></i>
             <a className="navWorks" href="#s4">Contato</a>
         </span>
-    </nav>
+    </nav> */}
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#">Pricing</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </div>
+            </div>
+          </div>
+        </nav>
     <main>
       <section id="s1" className={s.s1}>
             <h1>Mercedes</h1>
             <h2>O melhor carro da temporada</h2>
       </section>
-      <section id="s2">
+      <section id="s2" className={s.s2}>
           <div className={s.card}>
             <img width="300px" height="auto" src={image01} alt=""/>
             <div>
@@ -70,7 +86,7 @@ function App() {
       <section id="s3">
        <iframe className={s.vid} src="https://www.youtube.com/embed/Cs54R2Ks61s?si=RfKRsiwnBgwsoyLe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </section>
-      <section id="s4">
+      <section id="s4" className={s.s4}>
         <h3>CONTATO</h3>
         <div className={s.formulario}>
             <label for="nome">Nome:</label>
@@ -83,7 +99,6 @@ function App() {
 
       </section>
     </main>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
